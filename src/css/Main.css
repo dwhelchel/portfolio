@@ -3,5 +3,34 @@
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("../pictures/nightsky.jpg") no-repeat;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../pictures/nightsky.jpg") no-repeat;
   background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main .main-container {
+  text-align: center;
+  color: #fff;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.main .main-container h1 {
+  font-size: 4rem;
+  margin: 0;
+  text-shadow: 3px 3px 3px darkblue;
+}
+
+.main .main-container p {
+  font-size: 1.2rem;
+  margin: 0;
+  margin-top: 6px;
+  text-shadow: 3px 3px 3px darkblue;
 }
 /*# sourceMappingURL=Main.css.map */
