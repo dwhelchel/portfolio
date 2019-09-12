@@ -2,6 +2,17 @@ import React, { Component } from 'react';
 import '../css/Main.css';
 
 class Main extends Component {
+
+    constructor() {
+        super();
+        this.state = {}
+        this.handleClick = this.handleClick.bind(this);
+    }
+
+    handleClick() {
+        
+    }
+
     render() {
         return(
             <div className="main" id="main">

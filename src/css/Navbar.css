@@ -9,20 +9,22 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .navbar .navbar-container .link-container .link {
-  padding: 10px;
+  margin: 15px;
   color: #fff;
   font-size: 1.5rem;
+  padding-bottom: 6px;
+  font-weight: 500;
 }
 
 .navbar .navbar-container .link-container .link:hover {
   cursor: pointer;
   color: red;
-  border-bottom: 1px solid red;
+  border-bottom: 2px solid red;
 }
 /*# sourceMappingURL=Navbar.css.map */

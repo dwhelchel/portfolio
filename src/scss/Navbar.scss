@@ -5,16 +5,18 @@
     .navbar-container {
         padding: 10px;
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         .link-container {
             .link {
-                padding: 10px;
+                margin: 15px;
                 color: #fff;
                 font-size: 1.5rem;
+                padding-bottom: 6px;
+                font-weight: 500;
                 &:hover {
                     cursor: pointer;
                     color: red;
-                    border-bottom: 1px solid red;
+                    border-bottom: 2px solid red;
                 }
             }
         }
