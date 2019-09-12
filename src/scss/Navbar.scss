@@ -2,25 +2,20 @@
     top: 0;
     position: fixed;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    .container {
-        min-width: 200px;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.3);
+    .navbar-container {
         padding: 10px;
         display: flex;
-        justify-content: center;
-        border-bottom-left-radius: 15px;
-        border-bottom-right-radius: 15px;
-        .link {
-            padding: 10px;
-            color: #fff;
-            font-size: 1.5rem;
-            &:hover {
-                cursor: pointer;
-                color: red;
-                border-bottom: 1px solid red;
+        justify-content: space-between;
+        .link-container {
+            .link {
+                padding: 10px;
+                color: #fff;
+                font-size: 1.5rem;
+                &:hover {
+                    cursor: pointer;
+                    color: red;
+                    border-bottom: 1px solid red;
+                }
             }
         }
     }

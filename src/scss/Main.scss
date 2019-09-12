@@ -1,5 +1,8 @@
 .main {
     height: 100vh;
-    background-color: orange;
-    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../pictures/nightsky.jpg') no-repeat;
+    background-size: cover;
+    .main-container {
+        
+    }
 }
