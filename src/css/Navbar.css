@@ -11,9 +11,9 @@
 }
 
 .navbar .container {
-  width: 15%;
+  min-width: 200px;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.3);
   padding: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -28,5 +28,12 @@
 .navbar .container .link {
   padding: 10px;
   color: #fff;
+  font-size: 1.5rem;
+}
+
+.navbar .container .link:hover {
+  cursor: pointer;
+  color: red;
+  border-bottom: 1px solid red;
 }
 /*# sourceMappingURL=Navbar.css.map */

@@ -3,6 +3,14 @@ import { Link } from 'react-scroll';
 import '../css/Navbar.css';
 
 class Navbar extends Component {
+
+    constructor() {
+        super();
+        this.state = {
+            number: 0
+        }
+    }
+
     render() {
         return(
             <div className="navbar">

@@ -1,5 +1,6 @@
 .main {
   height: 100vh;
   background-color: orange;
+  overflow: hidden;
 }
 /*# sourceMappingURL=Main.css.map */
