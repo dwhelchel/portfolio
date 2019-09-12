@@ -1,0 +1,32 @@
+.navbar {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.navbar .container {
+  width: 15%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.navbar .container .link {
+  padding: 10px;
+  color: #fff;
+}
+/*# sourceMappingURL=Navbar.css.map */
