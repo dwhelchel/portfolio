@@ -9,6 +9,8 @@ class Card extends Component {
                     <img src="" />
                 </div>
                 <div className="card-description">
+                    <h1>{this.props.name}</h1>
+                    <p>{this.props.description}</p>
                     <div className="card-button"><a href={this.props.github}></a></div>
                     {
                         this.props.demo 
